@@ -1591,6 +1591,11 @@ ember-rfc176-data@^0.3.5:
   version "0.3.6"
   resolved "https://registry.yarnpkg.com/ember-rfc176-data/-/ember-rfc176-data-0.3.6.tgz#7138db8dfccec39c9a832adfbd4c49d670028907"
 
+ember@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/ember/-/ember-1.0.3.tgz#783670495ce15fc5f4a36534b2f50e7fec60c0b0"
+  integrity sha512-+sZwA/QhOYnHbuSShSxy3EONx2rZteZrCyMOtns3703eJsHf6b8gEEjMKjYhMUb+CdPyAgr8K9bN00kQBjllRA==
+
 emits@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/emits/-/emits-3.0.0.tgz#32752bba95e1707b219562384ab9bb8b1fd62f70"

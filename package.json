@@ -26,7 +26,7 @@
     "test": "grunt validate",
     "ci": "grunt validate --verbose",
     "ci:regression": "grunt test-regression --verbose",
-    "build": "cd core/client && yarn install && yarn build && cd ../../ && knex-migrator init && grunt symlink && grunt init || true",
+    "build": "cd core/client && yarn build && cd ../../ && knex-migrator init && grunt symlink && grunt init || true",
     "lint:server": "eslint --ignore-path .eslintignore 'core/server/**/*.js' 'core/*.js' '*.js'",
     "lint:test": "eslint -c core/test/.eslintrc.json --ignore-path core/test/.eslintignore 'core/test/**/*.js'",
     "lint": "yarn lint:server && yarn lint:test",
@@ -120,6 +120,7 @@
     "sqlite3": "4.0.6"
   },
   "devDependencies": {
+    "ember": "^1.0.3",
     "eslint": "5.12.1",
     "eslint-plugin-ghost": "0.1.0",
     "grunt": "1.0.3",
